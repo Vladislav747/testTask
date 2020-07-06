@@ -1,0 +1,57 @@
+
+ .taskList{
+   width: 50%;
+ }
+ 
+ .tasks{
+   padding: 20px;
+   table{
+     margin: 0 auto;
+
+     thead{
+        th{
+          border: 2px solid black;
+          padding: 5px;
+          font-size: 1.25rem;
+          font-weight: 100;
+
+          .table__th{
+            display: flex;
+            justify-content: space-around;
+      
+            .th__icon{
+              padding: 4px;
+              border: 2px solid black !important;
+              border-radius: 100%;
+              cursor: pointer;
+      
+              svg{
+                width: 20px;
+                height: 20px;
+                display: flex;
+              }
+             
+            }
+          }
+        }
+     }
+
+     td{
+      text-align: center;
+      border: 1px solid;
+      padding: 5px;
+    }
+   }
+ }
+
+
+ 
+  
+  @media screen and (max-width: 550px) {
+   
+  }
+  
+  
+  @media screen and (max-width: 800px){
+     
+  }
